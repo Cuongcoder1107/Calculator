@@ -67,11 +67,11 @@ document.getElementById("btn-.").addEventListener("click", () => {
   display += document.getElementById("btn-.").value;
   document.getElementById("my-display").innerHTML = display;
 });
-document.getElementById("btn-(").addEventListener("click", () => {
+document.getElementById("btn-open").addEventListener("click", () => {
   display += document.getElementById("btn-(").value;
   document.getElementById("my-display").innerHTML = display;
 });
-document.getElementById("btn-)").addEventListener("click", () => {
+document.getElementById("btn-close").addEventListener("click", () => {
   display += document.getElementById("btn-)").value;
   document.getElementById("my-display").innerHTML = display;
 });
