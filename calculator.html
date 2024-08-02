@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./calculator.css" />
+    <title>Calculator Online</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="display" id="my-display" type="text" readonly></div>
+      <div class="row row1">
+        <button class="btn" id="btn-Ac">Ac</button>
+        <button class="btn" id="btn-delete">X</button>
+        <button class="btn" id="btn-open" value="(">(</button>
+        <button class="btn" id="btn-close" value=")">)</button>
+        <button class="btn" id="btn-divide" value="/">/</button>
+        <button class="btn" id="btn-multi" value="*">*</button>
+      </div>
+      <div class="row row2">
+        <button class="btn btn-number" id="btn-7" value="7">7</button>
+        <button class="btn btn-number" id="btn-8" value="8">8</button>
+        <button class="btn btn-number" id="btn-9" value="9">9</button>
+        <button class="btn" id="btn-minus" value="-">-</button>
+      </div>
+      <div class="row row3">
+        <button class="btn btn-number" id="btn-4" value="4">4</button>
+        <button class="btn btn-number" id="btn-5" value="5">5</button>
+        <button class="btn btn-number" id="btn-6" value="6">6</button>
+      </div>
+      <div class="row row4">
+        <button class="btn btn-number" id="btn-1" value="1">1</button>
+        <button class="btn btn-number" id="btn-2" value="2">2</button>
+        <button class="btn btn-number" id="btn-3" value="3">3</button>
+      </div>
+      <div class="row row5">
+        <button class="btn btn-number" id="btn-0" value="0">0</button>
+        <button class="btn btn-decimal" id="btn-." value=".">.</button>
+      </div>
+      <div class="row add">
+        <button class="btn" id="btn-add" value="+">+</button>
+      </div>
+      <div class="row equal">
+        <button class="btn" id="btn-equal">=</button>
+      </div>
+    </div>
+    <script src="./calculator.js"></script>
+  </body>
+</html>
