@@ -68,11 +68,11 @@ document.getElementById("btn-.").addEventListener("click", () => {
   document.getElementById("my-display").innerHTML = display;
 });
 document.getElementById("btn-open").addEventListener("click", () => {
-  display += document.getElementById("btn-(").value;
+  display += document.getElementById("btn-open").value;
   document.getElementById("my-display").innerHTML = display;
 });
 document.getElementById("btn-close").addEventListener("click", () => {
-  display += document.getElementById("btn-)").value;
+  display += document.getElementById("btn-close").value;
   document.getElementById("my-display").innerHTML = display;
 });
 let calculate = () => {
